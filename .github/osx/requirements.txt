@@ -1,0 +1,6 @@
+# Requirements for macOS universal2 binary release
+#
+# useage:
+#   pip3 download -r .github/osx/requirements.txt --platform macosx_10_10_universal2 --only-binary :all: --no-deps --dest . 
+#
+cryptography==38.0.1
